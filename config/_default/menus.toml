@@ -14,11 +14,26 @@
   name = "Docs"
   url = "/docs/prologue/introduction/"
   weight = 10
+  identifier  = "docss"
 
 [[main]]
   name = "Blog"
   url = "/blog/"
   weight = 20
+  
+
+  #submenu
+  [[main]]
+  parent  = "docss"
+  name = "Tech Events"
+  url = "/news/tech-events"
+  weight = 1
+
+  [[main]]
+  parent  = "docss"
+  name = "Politics"
+  url = "/news/politics"
+  weight = 2
 
 # [[social]]
 #   name = "Twitter"
