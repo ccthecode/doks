@@ -22,14 +22,14 @@
   weight = 20
   
 
-  #submenu
-  [[main]]
+#submenu
+[[main]]
   parent  = "docss"
   name = "Tech Events"
   url = "/news/tech-events"
   weight = 1
 
-  [[main]]
+[[main]]
   parent  = "docss"
   name = "Politics"
   url = "/news/politics"
